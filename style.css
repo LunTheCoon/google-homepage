@@ -11,6 +11,7 @@ input {
 	margin-top: 15px;
 	display: inline;
 	position: relative;
+	top: 100px;
 	left: 500px;
 }
 
@@ -21,7 +22,9 @@ input:hover {
 }
 
 .bar {
-	position: static;
+	position: relative;
+	top: 100px;
+	left: 0px;
 	height: 25px;
 	width: 500px;
 	padding-left: 10px;
@@ -44,9 +47,75 @@ input:hover {
 }
 
 img.resize {
-    width: 35%;
+	position: relative;
+	top: 120px;
+    width: 25%;
     height: auto;
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+div {
+	border-top-width: 1px;
+	border-top-color: #dcdcdc;
+	background-color: #f0f0f0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: verdana;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 15px;
+}
+
+.atop {
+	font-weight: lighter;
+	color: black;
+	margin: 10px;
+}
+
+.asi {
+	color: white;
+	font-weight: bold;
+	background-color: #1E90FF;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px
+}
+
+.asi:hover{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.top {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 20px;
+}
+
+.leftb {
+	padding-right: 10px;
+	padding-right: 400px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.rightb {
+	padding-right: 10px;
+	padding-left: 400px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
